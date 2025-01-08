@@ -9179,6 +9179,7 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
+
   .text-sm-left {
     text-align: left !important;
   }
@@ -9539,6 +9540,7 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar-dark .navbar-nav .nav-link {
     padding: 10px 0;
   }
+
 }
 
 .carousel-caption {
@@ -9672,6 +9674,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @media (min-width: 768px) {
+
   .timeline::after {
     position: absolute;
     content: "";
@@ -9771,6 +9774,7 @@ a.text-dark:hover, a.text-dark:focus {
   #event .border-right {
     border-right: none !important;
   }
+  
 }
 
 
@@ -9913,4 +9917,26 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-transition-delay: .4s;
   -moz-transition-delay: .4s;
   -o-transition-delay: .4s;
+}
+
+
+
+@media (max-width: 500px) {
+  /* … */
+  .title {
+    font-size: 35px;
+  }
+  .title .title-text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .title-deco-left {
+    width: 50px;
+    height: 60px;
+  }
+  .title-deco-right {
+    width: 50px;
+    height: 60px;
+  }  
+
 }

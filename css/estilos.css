@@ -1,6 +1,4 @@
-html{
-	scroll-behavior:smooth;
-}
+
 .columna-izquierda {
 	padding: 40px;
 }
@@ -71,8 +69,4 @@ input {
 .contenedor-boton {
 	display: flex;
 	justify-content: center;
-}
-
-.text-amarillo{
-	color: rgb(255, 208, 0);
 }
