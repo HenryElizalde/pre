@@ -12,7 +12,6 @@ const aceptoInvitacion = () => {
 
 const rechazoInvitacion = () => {
     registro.classList.remove('activo');
-    console.log("remover activo de registro")
     rechazo.classList.add('activo');
 }
 

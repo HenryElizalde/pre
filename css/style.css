@@ -9937,14 +9937,14 @@ a.text-dark:hover, a.text-dark:focus {
   .title-deco-right {
     width: 50px;
     height: 60px;
-  }  
+  }
+
   .countdown-box span {
     margin-left: 3px;
     min-width: 80px;
   }
   .countdown-box span.number {
-    font-size: 32px;
+    font-size: 30px;
   } 
-
 
 }
